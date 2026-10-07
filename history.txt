@@ -24,3 +24,503 @@
    24  git pull
    25  ls
    26  history >> history.txt
+   31  git push origin master 
+   32  ssh-keygen -C "demo"
+   33  git push origin master 
+   34  ls
+   35  vim file1
+   36  vim file2
+   37  Git add file2
+   38  git commit -m "new change file"
+   39  git push origin master 
+   40  git pull origin master 
+   41  touch shubham{5..10]
+   42  ls
+   43  rm shubham{5..10]
+   44  touch shubham{5..10}
+   45  ls
+   46  vim shubham1
+   47  git add shubham1
+   48  git commit -m "new file"
+   49  ls
+   50  git push origin master 
+   51  git pull origin master 
+   52  cat file5
+   53  git init
+   54  touch file{1..5}
+   55  ls
+   56  vim file1
+   57  git add file1
+   58  git status 
+   59  git commit -m "commit my file"
+   60  git status 
+   61  git add .
+   62  git status 
+   63  git commit -m "commit all file"
+   64  git config --list
+   65  ssh-keygen -C "demo"
+   66  git push origin master
+   67  ls
+   68  git log
+   69  git log --oneline
+   70  git revert e263ce1 
+   71  git init
+   72  touch file{1..5}
+   73  ls
+   74  vim file1
+   75  git add file1
+   76  git commit -m "my file"
+   77  git status
+   78  git add .
+   79  git commit -m "my new file"
+   80  git status
+   81  ls
+   82  git remote add origin git@github.com:Nayya99/mygithub.git
+   83  ssh-keygen -C "demo"
+   84  git push origin master
+   85  git remote -v
+   86  git push origin master
+   87  git pull origin master
+   88  git fetch origin master
+   89  cat file1
+   90  cat file1
+   91  git fetch origin master
+   92  cat file1
+   93  git log
+   94  git log --oneline
+   95  ls
+   96  vim file1
+   97  git status
+   98  git add file1
+   99  git commit -m "my cimmit"
+  100  git log --oneline 
+  101  git revert e47bb34
+  102  git revert e47bb34
+  103  ls
+  104  git revert e47bb34
+  105  ls
+  106  ls
+  107  touch shubham
+  108  git add shubham 
+  109  git commit -m "all fresh"
+  110  git log --oneline 
+  111  git revert e47bb34 
+  112  git revert c0eb858 
+  113  ls
+  114  git reset file1
+  115  ls
+  116  git status
+  117  history
+  118  ls -a
+  119  git status
+  120  touch cloud
+  121  ls
+  122  git add .
+  123  git commit -m "my commit"
+  124  ls
+  125  git status
+  126  git logs
+  127  git log
+  128  git log --oneline 
+  129  touch cloud{1..5}
+  130  git add .
+  131  git status
+  132  git reset cloud2 cloud4
+  133  git status
+  134  git commit -m "cloud1 3 5 commit"
+  135  git log --oneline
+  136  git revert 90d7048
+  137  git log --oneline
+  138  history 
+  139  git remote add origin git@github.com:Nayya99/ansible.git
+  140  git pull origin master
+  141  ls
+  142  git pull origin master --allow-unrelated-histories 
+  143  git pull origin master --help
+  144  git pull origin master
+  145  git pull origin master --help
+  146  git init
+  147  git status
+  148  git merge --abort
+  149  git pull origin master
+  150  git pull origin master
+  151  git remote -v
+  152  git remote add origin git@github.com:Nayya99/ansible.git
+  153  git remote rm origin 
+  154  git remote add origin git@github.com:Nayya99/ansible.git
+  155  git pull origin master
+  156  git pull origin master --allow-unrelated-histories 
+  157  history
+  158  git remote add git@github.com:Nayya99/git-ansible.git
+  159  git remote add git@github.com:Nayya99/git-ansible.git
+  160  git pull origin master
+  161  git remote -v
+  162  git remote add git@github.com:Nayya99/git-ansible.git
+  163  git remote mirror git@github.com:Nayya99/git-ansible.git
+  164  git remote rm
+  165  git remote rm git
+  166  git remote rm git@github.com:Nayya99/git-ansible.git
+  167  git remote add git@github.com:Nayya99/git-ansible.git
+  168  git remote add git@github.com:Nayya99/git-ansible.git
+  169  git pull origin master
+  170  git remote add origin git@github.com:Nayya99/git-ansible.git
+  171  git remote rm origin 
+  172  git remote add origin git@github.com:Nayya99/git-ansible.git
+  173  git pull origin master
+  174  git pull origin master --allow-unrelated-histories 
+  175  git pull origin master
+  176  git add .
+  177  git commit -m "commit to desktop"
+  178  git pull origin master
+  179  ls
+  180  git remote add origin git@github.com:Nayya99/git-ansible.git
+  181  git pull origin master
+  182  git pull origin master --allow-unrelated-histories 
+  183  git remote add origin git@github.com:Nayya99/git-ansible.git
+  184  git remote rm origin git@github.com:Nayya99/git-ansible.git
+  185  git remote remove origin git@github.com:Nayya99/git-ansible.git
+  186  git remote remove origin 
+  187  git remote -v
+  188  git remote add origin git@github.com:Nayya99/git-ansible.git
+  189  git remote -v
+  190  git pull origin master
+  191  ssh-keygen
+  192  git remote add origin git@github.com:Nayya99/git-ansible.git
+  193  git pull origin master
+  194  git remote add origin git@github.com:Nayya99/ansible.git
+  195  git pull origin master
+  196  git remote add origin git@github.com:Nayya99/git-ansible.git
+  197  ls
+  198  ssh-keygen -C demo
+  199  ssh-keygen -C demo
+  200  git remote add origin git@github.com:Nayya99/git-ansible.git
+  201  git remote add origin git@github.com:Nayya99/git-ansible.git
+  202  git remote -v
+  203  ls
+  204  git init
+  205  git remote add origin git@github.com:Nayya99/git-ansible.git
+  206  git remote -v
+  207  git pull origin master
+  208  ls
+  209  git status
+  210  git pull origin master
+  211  git clone origin master
+  212  git clone .
+  213  git clone ansible-git
+  214  git clone ansible
+  215  git push --
+  216  git push --set-upstream origin master
+  217  git remote add origin git@github.com:Nayya99/git-ansible.git
+  218  git remote remove origin git@github.com:Nayya99/git-ansible.git
+  219  git remote remove origin 
+  220  git remote add origin git@github.com:Nayya99/git-ansible.git
+  221  git pull origin master
+  222  git fetch origin
+  223  ls
+  224  git reset --hard origin master
+  225  touch cloud{1..3}
+  226  git add .
+  227  git commit -m "new file commit"
+  228  git pull origin master
+  229  ls
+  230  cat /etc/hosts
+  231  ls
+  232  git remote -v
+  233  git pull origin master
+  234  ls
+  235  git pull origin master
+  236  ls
+  237  git remote add origin git@github.com:Nayya99/ansible.git
+  238  git remote -v
+  239  git remote remove origin 
+  240  git remote add origin git@github.com:Nayya99/ansible.git
+  241  git pull origin master
+  242  git pull origin master --allow-unrelated-histories 
+  243  git add .
+  244  git commit -m "commit file"
+  245  git pull origin master
+  246  ls
+  247  history 
+  248  git remote add origin git@github.com:Nayya99/new-git.git
+  249  git remote -v
+  250  git remote remove origin 
+  251  git remote add origin git@github.com:Nayya99/new-git.git
+  252  git pull origin master
+  253  git pull origin master --allow-unrelated-histories 
+  254  git add .
+  255  git commit -m "my file"
+  256  git pull origin master
+  257  ls
+  258  git remote add origin git@github.com:Nayya99/practice.git
+  259  git remote -v
+  260  git remote add origin 
+  261  git remote remove origin 
+  262  git remote add origin git@github.com:Nayya99/practice.git
+  263  git pull origin master
+  264  git pull origin master
+  265  git pull origin master --allow-unrelated-histories 
+  266  git add .
+  267  git commit -m "pull file"
+  268  git pull origin master
+  269  ls
+  270  git init
+  271  git pull origin master
+  272  git clone https://github.com/Nayya99/new-git.git
+  273  ls
+  274  ls
+  275  sudo -i
+  276  ls
+  277  pwd
+  278  cd
+  279  pwd
+  280  cd OneDrive/Desktop
+  281  ls
+  282  ls
+  283  hostname
+  284  hostnamectl set-hostname personal
+  285  ls
+  286  ls
+  287  cd Sessions/
+  288  ls
+  289  cd 3ri
+  290  git --help
+  291  git config --global user.name "swapnil.nibrad"
+  292  git config --global user.email "swapnibrada@gmail.com"
+  293  ls
+  294  ls
+  295  git clone git@github.com:swapnibrad/3ri_batch_2.git
+  296  ls
+  297  pwd
+  298  ls
+  299  cd 3ri_batch_2/
+  300  ls
+  301  chmod 400 ../../../../../Downloads/delete_ohio_prashant.pem 
+  302  ll ../../../../../Downloads/delete_ohio_prashant.pem 
+  303  ll ../../../../../Downloads/delete_ohio_prashant.pem 
+  304  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ubuntu@18.219.201.81
+  305  scp ../../../../../Downloads/2095_level.zip ubuntu@18.219.201.81:/home/ubuntu
+  306  scp ../../../../../Downloads/2095_level.zip ubuntu@18.219.201.81:/home/ubuntu
+  307  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ubuntu@18.219.201.81
+  308  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ubuntu@18.219.201.81
+  309  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ubuntu@18.219.201.81
+  310  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ubuntu@18.219.201.81
+  311  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ubuntu@3.129.128.87
+  312  git clone https://github.com/swapnibrad/studentapp-ui.git
+  313  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ec2-user@18.118.209.65
+  314  ssh -i ../../../../../Downloads/delete_ohio_prashant.pem ec2-user@18.118.209.65
+  315  ssh -i ../../Downloads/delete_ohio_prashant.pem ec2-user@18.118.209.65
+  316  ssh -i ../../Downloads/delete_ohio_prashant.pem ubuntu@18.219.29.199
+  317  ssh -i ../../Downloads/delete_ohio_prashant.pem ubuntu@18.117.226.202
+  318  8;5ucaler
+  319  ssh -i ../../Downloads/delete_ohio_prashant.pem ubuntu@18.117.226.2028
+  320  ssh -i ../../Downloads/delete_ohio_prashant.pem ubuntu@18.117.226.202
+  321  ssh -i ../../Downloads/delete_ohio_prashant.pem ubuntu@18.224.20.29
+  322  git pull
+  323  ls
+  324  git add .
+  325  git commit -m "tf session 2"
+  326  git push
+  327  ls
+  328  pwd
+  329  cd
+  330  pwd
+  331  ls
+  332  ls
+  333  pwd
+  334  cd /c/Users/Default/Desktop/
+  335  ls
+  336  cd ../../NAYAN/OneDrive/desktop
+  337  ls
+  338  cd Sessions/
+  339  ls
+  340  cd terraform/
+  341  ls
+  342  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+  343  apt-get update && sudo apt-get install -y gnupg software-properties-common
+  344  ls
+  345  git pull
+  346  git add .
+  347  git commit -c "updated 1st nov session"
+  348  git commit -m "updated 1st nov session"
+  349  git push
+  350  git add .
+  351  git commit -m "updated 1st nov session"
+  352  git push
+  353  git pull
+  354  git add .
+  355  ls
+  356  git add .
+  357  git status
+  358  git commit -m "updated tf module files of 2nf nov"
+  359  git push
+  360  ls
+  361  pwd
+  362  cd
+  363  pwd
+  364  ssh -i ./Downloads/delete_ohio_prashant.pem ubuntu@18.222.139.233
+  365  ls
+  366  cd
+  367  pwd
+  368  ls
+  369  cd
+  370  pwd
+  371  ls
+  372  vim Docker_session_09_11.txt
+  373  git add .
+  374  ls
+  375  git pull
+  376  git add .
+  377  git commit -m "dkr commands"
+  378  git push
+  379  ls
+  380  ls
+  381  pwd
+  382  ls
+  383  mkdir K8S
+  384  cd K8S/
+  385  vim install_k8s.sh
+  386  vim basic_commands.txt
+  387  ls
+  388  cd ..
+  389  ls
+  390  ls K8S/
+  391  git add .
+  392  git add .
+  393  git commit -m "15th Nov | K8s | session 1"
+  394  git push
+  395  pwd
+  396  ls
+  397  cd
+  398  pwd
+  399  ls
+  400  ls
+  401  vim K8S/basic_commands.txt 
+  402  git add .
+  403  git add .
+  404  git commit -m "15th Nov | K8s | session 1"
+  405  git push
+  406  git add .
+  407  git add .
+  408  git commit -m "pjt mongo"
+  409  git push
+  410  ls
+  411  git add .
+  412  git commit -m "updated md file"
+  413  git push
+  414  git add .
+  415  git commit -m "updated md file"
+  416  git push
+  417  cd ..
+  418  ls
+  419  git clone https://github.com/official-imperial/Jenkins-ECR-EKS.git
+  420  ls
+  421  cd Jenkins-ECR-EKS/
+  422  cp -fr ../nodejs-app .
+  423  ls
+  424  git add .
+  425  git commit -m "1"
+  426  git push
+  427  ls
+  428  cd ..
+  429  ls
+  430  cd 3ri_batch_2/
+  431  ls
+  432  git add .
+  433  git commit -m "updated files"
+  434  git push
+  435  git add .
+  436  git commit -m "updated files"
+  437  git push
+  438  git pull
+  439  git add .
+  440  git commit -m "updated files"
+  441  git pull
+  442  git add .
+  443  git commit -m "updated files"
+  444  git push
+  445  git add .
+  446  git commit -m "updated files"
+  447  git pull
+  448  git push
+  449  git add .
+  450  git commit -m "mongodb task"
+  451  git push
+  452  git add .
+  453  git commit -m "updated "
+  454  git push
+  455  ls
+  456  git pull
+  457  git add .
+  458  git add .
+  459  git commit -m "updated"
+  460  git push
+  461  ls
+  462  git pull
+  463  ls
+  464  cd docker/
+  465  ls
+  466  cd docker
+  467  cd docker-compose/
+  468  ls
+  469  git add .
+  470  git commit -m "projects"
+  471  cd ..
+  472  cd ..
+  473  ls
+  474  git add .
+  475  git commit -m "projects"
+  476  git push
+  477  git add .
+  478  git commit -m "linked and projects list"
+  479  git push
+  480  cd project/
+  481  ls -a
+  482  echo "welcome to first file in repositery ...!" > file_1.txt
+  483  ls
+  484  cat file_1.txt 
+  485  ls -a
+  486  git init
+  487  ls -a
+  488  ls .git/
+  489  cat .git/config 
+  490  ls -a
+  491  git add file_1.txt 
+  492  git status 
+  493  touch file_2.txt
+  494  git status 
+  495  git add file_2.txt
+  496  git status 
+  497  git commit -m "adding new file in repo - message 1"
+  498  git logs
+  499  git log
+  500  git --help
+  501  ls
+  502  git status
+  503  mkdir tom
+  504  ls
+  505  mv file_* tom/
+  506  ls tom/
+  507  git status 
+  508  git add .
+  509  git commit -m "added files in requitred directy"
+  510  git push
+  511  ls
+  512  ls
+  513  git status 
+  514  git add .
+  515  git status 
+  516  git commit -m "added PDF files in repositry"
+  517  git status 
+  518  git push
+  519  ls
+  520  git pull
+  521  ls
+  522  ls
+  523  git branch 
+  524  git branch -a
+  525  git branch -a
+  526  git branch feature/patch_fix_1
+  527  git branch -a
+  528  git checkout feature/patch_fix_1
+  529  ls
+  530  history >> history.txt 
